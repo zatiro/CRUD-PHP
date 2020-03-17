@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0;}
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: large; color: black;}
+header{height: 100px; background-color: darkolivegreen; padding: 10px 0;}
+footer{
+    height: 50px;
+    background-color:black;
+    padding: 10px 0;
+    text-align: center;
+    font: normal;
+    color: #f3f3f3;
+}
+/* Padding = margem interna */
+
+/* ID */
+#conteudo{padding: 20px 0;}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+    color: whitesmoke;
+}
+
+#menu a{
+    text-decoration: none;  
+    padding: 10px 10px;
+    color: #e3e3e3; text-shadow: 1px 1px 1px black;
+}
+#menu a:hover{
+    background-color: red;
+}
+
+#cabecalho{
+    float: right;
+    margin: auto;
+}
+
+#login{
+    margin: auto;
+    width: 500px;
+    border: 3px solid green;
+    padding: 10px;
+}
